@@ -25,7 +25,7 @@ const updateUI = (data) => {
     } else {
       timeSrc = 'img/night.svg'
     }
-    console.log(IsDayTime)
+    
     time.setAttribute('src', timeSrc)
 
     if(card.classList.contains('d-none')) {
